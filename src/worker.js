@@ -128,6 +128,8 @@ async function handleWebhook(request, env) {
 
   if (env.STRIPE_WEBHOOK_SECRET) {
     try {
+      // Standard response headers
+      const requestId = crypto.randomUUID().slice(0, 8);
       await verifyStripeSignature(body, signature, env.STRIPE_WEBHOOK_SECRET);
     } catch (err) {
       return new Response(`Webhook signature verification failed: ${err.message}`, { status: 400 });
