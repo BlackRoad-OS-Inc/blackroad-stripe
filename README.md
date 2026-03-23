@@ -1,5 +1,13 @@
 # blackroad-stripe
 
+> BlackRoad Stripe — payment integration Worker for Stripe webhooks and checkout.
+
+Part of the [BlackRoad OS](https://blackroad.io) ecosystem — [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc)
+
+---
+
+# blackroad-stripe
+
 BlackRoad Stripe — payment integration Worker for Stripe webhooks and checkout.
 
 **BlackRoad-OS-Inc** — Corporate root — all IP and governance
